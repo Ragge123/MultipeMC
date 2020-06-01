@@ -19,7 +19,7 @@ This script is my first ever project, and it shows. The code is simple, and not 
 1. To get started make .ini files for every account you plan to be using. Use 'example.ini' as a template
 2. Edit mccli.sh and add your accounts as following:
 
-'''xml
+```xml
 <printf "\n${number}*************** ${lg}Minecraft Alt Menu ${number}****************${normal}\n"
  printf "${number} 1) ${e} ${menu}BusinessKid         ${number}16) ${e} ${menu}GrunesEi ${normal}\n"
  printf "${number}***************** ${lg}Made by ${re}R${or}a${yl}g${gr}g${bl}e${pu}_ ${number}******************${normal}\n"
