@@ -55,7 +55,9 @@ echo   [90m1)[0m [36mAccount1[0m         [90m16)[0m [36mAccount3[0m
 echo   [90m2)[0m [36mAccount2[0m         [90m17)[0m [36mAccount4[0m
 ```
 
-3. Same as in linux you're gonna decide what your input does. Edit `mccli.bat` or `mccliw8.bat` depending on what operating system your on. Where 1 is your input, and Account1 is your account name or whatever you named your .ini file
+3. Change the goto command for each input `IF %M%==1 goto unused`, changing it from `goto unused` to `goto x` (where x is your account you specify in the next step)
+
+4. Same as in linux you're gonna decide what your input does. Edit `mccli.bat` or `mccliw8.bat` depending on what operating system your on. Where 1 is your input, and Account1 is your account name or whatever you named your .ini file
 
 ```xml
 :1
