@@ -51,8 +51,8 @@ Only difference with windows is the script setup, currently only windows 10 supp
 2. Edit mccli.bat and add your accounts as following: Changing out the Account1-4 with whatever you want to call your accounts, and editing the numbers in front of the accounts. Again make sure to add spaces so all of the accounts line up as shown here, if you don't you're gonna get a very messy script. You can add as many accounts as you want, just copy and paste the line(s) below
 
 ```xml
-echo   [90m1)[0m [36mAccount1[0m         [90m16)[0m [36mAccount3[0m
-echo   [90m2)[0m [36mAccount2[0m         [90m17)[0m [36mAccount4[0m
+echo   [90m1)[0m [36mAccount1[0m         [90m3)[0m [36mAccount3[0m
+echo   [90m2)[0m [36mAccount2[0m         [90m4)[0m [36mAccount4[0m
 ```
 
 3. Change the goto command for each input `IF %M%==1 goto unused`, changing it from `goto unused` to `goto x` (where x is your account you specify in the next step)
