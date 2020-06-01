@@ -18,7 +18,7 @@ This script is my first ever project, and it shows. The code is simple, and not 
 
 1. Download and install [Mono](https://www.mono-project.com/download/stable/#download-lin) if not already installed
 2. To get started make .ini files for every account you plan to be using. Use `example.ini` as a template
-3. Edit `mccli.sh` and add your accounts as following: Changing out account1-4 with whatever you want to call your accounts, and editing the numbers in front the accounts. Make sure to add spaces so all of the accounts line up as shown here, if you don't you're gonna get a very messy script.
+3. Edit `mccli.sh` and add your accounts as following: Changing out account1-4 with whatever you want to call your accounts, and editing the numbers in front the accounts. Make sure to add spaces so all of the accounts line up as shown here, if you don't you're gonna get a very messy script. You can add as many accounts as you want, just copy and paste the line(s) below
 
 ```xml
 printf "${number} 1) ${menu}Account1        ${number}3) ${menu}Account3 ${normal}\n"
@@ -42,7 +42,7 @@ printf "${number} 2) ${menu}Account2        ${number}4) ${menu}Account4 ${normal
 Only difference with windows is the script setup, currently only windows 10 supports colors in batch scripting, so if you're using Windows 8 or older use 'mccliw8.bat'
 
 1. Make .ini files for every account you plan to be using. Use `example.ini` as a template.
-2. Edit mccli.bat and add your accounts as following: Changing out the Account1-4 with whatever you want to call your accounts, and editing the numbers in front of the accounts. Again make sure to add spaces so all of the accounts line up as shown here, if you don't you're gonna get a very messy script.
+2. Edit mccli.bat and add your accounts as following: Changing out the Account1-4 with whatever you want to call your accounts, and editing the numbers in front of the accounts. Again make sure to add spaces so all of the accounts line up as shown here, if you don't you're gonna get a very messy script. You can add as many accounts as you want, just copy and paste the line(s) below
 
 ```xml
 echo   [90m1)[0m [36mAccount1[0m         [90m16)[0m [36mAccount3[0m
