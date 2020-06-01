@@ -4,6 +4,8 @@ Minecraft CLI slaves project
 The Minecraft CLI Bots project is a script i made as a fast and easy way to log into my many alts,
 on a spesific server. It relies on [Minecraft-Console-Client](https://github.com/ORelio/Minecraft-Console-Client) to launch lightweight minecraft CLI clients.
 
+![alt text](https://raw.githubusercontent.com/Ragge123/MultipeMC/master/2020-06-01_18-54.png)
+
 ## Usage
 
 I play on a server with the same minion type plugin as [hypixel](https://hypixel-skyblock.fandom.com/wiki/Minions). Now i don't personally play on hypixel, but from what i've heard its very similar. Basically what i need is a bot that joins the hub, does `/server skyblock` and then `/is coop *player1*`
