@@ -37,6 +37,12 @@ printf "${number} 2) ${menu}Account2        ${number}4) ${menu}Account4 ${normal
 
 5. Optional: change onlogin.txt if you want to run ingame commands at login
 
+6. Make the script executable and run it in bash
+```xml
+chmod +x mccli.sh
+./mccli.sh
+```
+
 ### On Windows
 
 Only difference with windows is the script setup, currently only windows 10 supports colors in batch scripting, so if you're using Windows 8 or older use 'mccliw8.bat'
@@ -58,3 +64,5 @@ cli.exe users/account1.ini
 ```
 
 4. Optional: change onlogin.txt if you want to run ingame commands at login
+
+5. Run the script, double click `mccli.bat` or `mccliw8.bat`
